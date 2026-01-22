@@ -118,19 +118,13 @@ function initHeroAnimations() {
     // Timeline principal del hero
     const heroTL = gsap.timeline();
 
-    // Animación del título
-    heroTL.to('.hero__title-line--primary', {
+    // Animación del título (logo)
+    heroTL.to('.hero__title', {
         opacity: 1,
         y: 0,
         duration: 1.2,
         ease: 'power4.out'
     })
-    .to('.hero__title-line--secondary', {
-        opacity: 1,
-        y: 0,
-        duration: 1.2,
-        ease: 'power4.out'
-    }, '-=0.8')
     .to('.hero__subtitle', {
         opacity: 1,
         y: 0,
