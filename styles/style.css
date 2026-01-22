@@ -375,10 +375,17 @@ body {
         min-height: 500px;
     }
     
+    .hero__container {
+        padding-top: 0;
+    }
+    
     .hero__title-logo {
         max-height: clamp(200px, 50vw, 300px);
     }
-    
+    .hero__subtitle {
+        font-size: clamp(.9rem, 2vw, 1.5rem);
+        margin-bottom: var(--spacing-md);
+    }
     .hero__unesco {
         bottom: var(--spacing-sm);
         right: var(--spacing-sm);
