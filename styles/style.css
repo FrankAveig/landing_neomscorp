@@ -405,7 +405,7 @@ body {
     }
     
     .hero__scroll-indicator {
-        bottom: var(--spacing-md);
+        display: none;
     }
 }
 
@@ -728,6 +728,22 @@ body {
     
     .portfolio__card {
         height: 400px;
+    }
+    
+    .portfolio__card-front,
+    .portfolio__card-back {
+        padding: var(--spacing-md);
+        overflow: hidden;
+    }
+    
+    .portfolio__card-footer {
+        padding-top: var(--spacing-sm);
+        margin-top: auto;
+    }
+    
+    .portfolio__card-link {
+        font-size: 0.9rem;
+        white-space: nowrap;
     }
     
     .portfolio__header {
