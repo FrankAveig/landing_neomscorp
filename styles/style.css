@@ -375,6 +375,10 @@ body {
         min-height: 500px;
     }
     
+    .hero__title-logo {
+        max-height: clamp(200px, 50vw, 300px);
+    }
+    
     .hero__unesco {
         bottom: var(--spacing-sm);
         right: var(--spacing-sm);
